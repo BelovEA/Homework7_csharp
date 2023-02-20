@@ -35,7 +35,7 @@ void ArrAverage(int[,] array)
             sum += array[i, j];
         }
         double average = Math.Round((double)sum / rows, 2);
-        Console.WriteLine($"Среднее арифметическое элементов в столбце {j + 1} = {average}");
+        Console.WriteLine($"Average of column {j + 1} = {average}");
     }
 }
 int[,] array = MakeArray(3, 4, 10, 99);
